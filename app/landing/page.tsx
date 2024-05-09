@@ -1,9 +1,9 @@
-// import Navbar from "../_components/navbar";
+import Navbar from "../_components/navbar";
 
 export default function LandingPage() {
     return (
         <div>
-            {/* <Navbar /> */}
+            <Navbar />
         </div>
     )
 }
