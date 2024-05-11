@@ -40,7 +40,7 @@ export default function Navbar() {
                 </div>
                 <div>
                     <Link href="/dashboard">
-                        <Button className='text-purple text-sm' type='button'>Apply Now</Button>
+                        <Button className='text-purple text-sm bg-transparent border-4 border-purple' type='button'>Apply Now</Button>
                     </Link>
                 </div>
             </div>
