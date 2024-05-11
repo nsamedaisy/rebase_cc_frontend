@@ -7,7 +7,7 @@ import { FaFacebookF, FaLinkedin, FaTiktok, FaTwitter } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
     return (
-        <div className='p-10 py-16 lg:mx-20'>
+        <div className='p-10 py-14 lg:mx-20'>
             <h1 className='text-2xl pb-10 font-bold'>Get in touch with us</h1>
 
             <div className='flex w-full justify-between mb-10'>
@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
                     <FaLinkedin className='text-2xl' />
                     <FaTiktok className='text-2xl' />
                 </div>
-                <div className="text-sm lg:flex mr-32 space-x-10">
+                <div className="text-sm lg:flex mr-32 space-x-10 font-medium">
                     <Link href="/about-us" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
                         About Us
                     </Link>
