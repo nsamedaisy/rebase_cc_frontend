@@ -5,8 +5,8 @@ import dp from '../../public/keybrd.jpg'
 const Testimonials: React.FC = () => {
     return (
         <div className="lg:mx-20 mb-14">
-            <h1 className="text-6xl mb-6 font-sans">Testimonials</h1>
-            <h3 className="mb-10 text-xl">Hear what our students, former students and industry professionals have to say</h3>
+            <h1 className="text-6xl mb-6 text-center font-sans">Testimonials</h1>
+            <h3 className="mb-10 text-xl text-center">Hear what our students, former students and industry professionals have to say</h3>
             <div className="flex justify-around items-center">
                 <div className="bg-gray-200 p-10 w-[30%]">
                     <h2 className="font-bold text-lg font-sans">Rebase Academy has truly transformed my career. The hands-on learning experience and industry-relevant curriculum prepared me for success in the tech job market.</h2>
