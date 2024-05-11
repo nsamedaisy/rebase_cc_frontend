@@ -14,13 +14,13 @@ const Testimonials: React.FC = () => {
                         <Image
                             src={dp}
                             alt='dp'
-                            className="w-full h-full object-cover border rounded-t-full border-gray-200 "
+                            className="w-full h-full object-cover border rounded-t-full border-gray-200"
                         />
                     </div>
                     <h2 className="mb-2 font-semibold text-lg">John Doe</h2>
                     <p className="">Software Engineer, xyz company.</p>
+                    +                </div>
 
-                </div>
                 <div className="bg-gray-200 p-10 w-[30%]">
                     <h2 className="font-bold text-lg font-sans">Rebase Academy has truly transformed my career. The hands-on learning experience and industry-relevant curriculum prepared me for success in the tech job market.</h2>
                     <div className="w-20 h-24 my-8">
