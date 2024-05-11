@@ -4,7 +4,7 @@ import hero from '../../public/hero.jpg'
 
 const OriginSec: React.FC = () => {
     return (
-        <div className="flex justify-around lg:mx-20 items-center mb-10">
+        <div className="flex justify-around lg:mx-20 items-center mb-20">
             <div className=" w-[48%] h-1/2">
                 <Image
                     src={hero}
