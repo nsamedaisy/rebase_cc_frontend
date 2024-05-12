@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import dp from '../../public/keybrd.jpg'
+import { GrNext, GrPrevious } from "react-icons/gr";
 
 const Testimonials: React.FC = () => {
     return (
@@ -8,6 +9,13 @@ const Testimonials: React.FC = () => {
             <h1 className="text-6xl mb-6 text-center font-sans">Testimonials</h1>
             <h3 className="mb-10 text-xl text-center">Hear what our students, former students and industry professionals have to say</h3>
             <div className="flex justify-around items-center">
+
+                <button
+                    className=" left-7 transform -translate-y-1/2 px-5 py-5 bg-orange-500 font-bold rounded-full"
+                >
+                    <GrPrevious className="text-white font-extrabold" />
+                </button>
+
                 <div className="bg-gray-200 p-10 w-[30%]">
                     <h2 className="font-bold text-lg font-sans">Rebase Academy has truly transformed my career. The hands-on learning experience and industry-relevant curriculum prepared me for success in the tech job market.</h2>
                     <div className="w-20 h-24 my-8">
@@ -19,7 +27,7 @@ const Testimonials: React.FC = () => {
                     </div>
                     <h2 className="mb-2 font-semibold text-lg">John Doe</h2>
                     <p className="">Software Engineer, xyz company.</p>
-                    +                </div>
+                </div>
 
                 <div className="bg-gray-200 p-10 w-[30%]">
                     <h2 className="font-bold text-lg font-sans">Rebase Academy has truly transformed my career. The hands-on learning experience and industry-relevant curriculum prepared me for success in the tech job market.</h2>
@@ -34,6 +42,13 @@ const Testimonials: React.FC = () => {
                     <h2 className="mb-2 font-semibold text-lg">John Marry</h2>
                     <p>web Developer, abc company.</p>
                 </div>
+
+                <button
+                    className=" left-7 transform -translate-y-1/2 px-5 py-5 bg-orange-500 font-bold rounded-full"
+                >
+                    <GrNext className="text-white font-extrabold" />
+                </button>
+
             </div>
         </div>
     )
