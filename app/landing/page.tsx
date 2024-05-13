@@ -7,8 +7,13 @@ import Testimonials from "../_components/testimonial";
 import FeaturedStudent from "../_components/features-student";
 import MeetTeam from "../_components/meet-team";
 import AboutUs from "../_components/about-us";
+import ApplyNow from "../_components/apply-now";
 
 export default function LandingPage() {
+    const handleSubmit = (formData: FormData) => {
+        // Handle form submission logic here
+        console.log(formData);
+    };
     return (
         <div>
             <Navbar />
@@ -20,6 +25,7 @@ export default function LandingPage() {
             <Footer />
             <AboutUs />
             <MeetTeam />
+            <ApplyNow />
         </div>
     )
 };
