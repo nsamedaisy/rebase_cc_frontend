@@ -1,6 +1,8 @@
 import Image from "next/image";
 import apply from '../../public/apply.jpg'
 import React from "react";
+import Button from "./button";
+import Link from "next/link";
 // import Button from "./Button";
 
 const ApplyNow: React.FC = () => {
@@ -29,14 +31,14 @@ const ApplyNow: React.FC = () => {
                     {/* all div  */}
                     <div className="flex justify-between py-8">
                         {/* div 1  */}
-                        <div className="flex flex-col space-y-5 w-[45%] bg-red-500">
+                        <div className="flex flex-col space-y-5 w-[45%]">
                             <label className="text-xl font-semibold">
                                 Phone Number <span className="text-orange-500">*</span>
                             </label>
                             <input className=" bg-gray-200 py-4  mb-6" type="tel" name="number" />
 
                             <p className="text-xl font-semibold">Gender <span className="text-orange-500">*</span></p>
-                            <div className="flex flex-col space-y-3 mt-6 bg-gray-200 p-4 ">
+                            <div className="flex flex-col space-y-3 mt-6 bg-gray-200 p-4 text-lg ">
                                 <label>
                                     <input className=" bg-gray-200 py-4" type="radio" name="gender" /> Male
                                 </label>
@@ -56,7 +58,7 @@ const ApplyNow: React.FC = () => {
                             <p className="text-xl font-semibold">
                                 Program of Interest <span className="text-orange-500">*</span>
                             </p>
-                            <div className="flex flex-col space-y-3 mt-6 bg-gray-200 p-4 ">
+                            <div className="flex flex-col space-y-3 mt-6 bg-gray-200 p-4 text-lg">
                                 <label>
                                     <input className=" bg-gray-200 py-4" type="radio" name="programOfInterest" value="Web Development" /> Full Stack Web Development
                                 </label>
@@ -70,7 +72,7 @@ const ApplyNow: React.FC = () => {
                         </div>
 
                         {/* div 2  */}
-                        <div className="flex-col flex space-y-5 bg-green-500 w-[45%]">
+                        <div className="flex-col flex space-y-5 w-[45%]">
                             <label className="text-xl font-semibold">
                                 Email <span className="text-orange-500">*</span>
                             </label>
@@ -113,11 +115,11 @@ const ApplyNow: React.FC = () => {
                     {/* all div  */}
                     <div className="flex justify-between py-8">
                         {/* div 3  */}
-                        <div className="flex-col flex space-y-5 bg-green-500 w-[45%]">
+                        <div className="flex-col flex space-y-5 w-[45%]">
                             <p className="text-xl font-semibold">
                                 Relationship wit Guardian <span className="text-orange-500">*</span>
                             </p>
-                            <div className="flex flex-col space-y-3 mt-6 bg-gray-200 p-4 ">
+                            <div className="flex flex-col space-y-3 mt-6 bg-gray-200 p-4 text-lg">
                                 <label>
                                     <input className=" bg-gray-200 py-4" type="radio" name="gender" /> Mother
                                 </label>
@@ -136,18 +138,22 @@ const ApplyNow: React.FC = () => {
                             <input className=" bg-gray-200 py-4" type="tel" name="guardianNumber" />
                         </div>
                         {/* div 4  */}
-                        <div className="flex flex-col space-y-5 w-[45%] bg-red-500">
+                        <div className="flex flex-col space-y-5 w-[45%]">
                             <label className="text-xl font-semibold">
                                 If Other, specify <span className="text-orange-500">*</span>
                             </label>
                             <input className=" bg-gray-200 py-4" type="text" name="other" />
 
-                            <label className="text-xl font-semibold pt-16">
+                            <label className="text-xl font-semibold pt-20">
                                 Email of Guardian <span className="text-orange-500">*</span>
                             </label>
                             <input className=" bg-gray-200 py-4" type="email" name="guardianEmail" />
                         </div>
                     </div>
+
+                    <Link href="/" className="items-center text-center justify-center">
+                        <Button className='text-white font-mono bg-purple' type='submit'>Submit</Button>
+                    </Link>
 
                 </form>
             </div>
