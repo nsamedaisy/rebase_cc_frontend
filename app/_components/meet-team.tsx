@@ -1,0 +1,61 @@
+import Image from "next/image";
+import React from "react";
+import { GrNext, GrPrevious } from "react-icons/gr";
+import kimi from '../../public/kimi.jpg';
+import aris from '../../public/aris.jpg'
+
+
+const MeetTeam: React.FC = () => {
+    return (
+        <div className="lg:mx-36 mb-14">
+            <h1 className="text-6xl mb-6 text-center font-sans">Meet the Team</h1>
+            <h3 className="mb-10 text-xl text-center">Get to know our team of dedicated staff, experienced instructors and industry professionals who have shared in our goals and vission</h3>
+            <div className="flex justify-around items-center">
+
+                <button
+                    className=" left-7 transform -translate-y-1/2 px-5 py-5 bg-orange-500 font-bold rounded-full"
+                >
+                    <GrPrevious className="text-white text-2xl" />
+                </button>
+
+                <div className="bg-gray-200 p-10 w-[30%]">
+                    <div className="w-20 h-24 my-8">
+                        <Image
+                            src={aris}
+                            alt='dp'
+                            className="w-full h-full object-cover border rounded-t-full border-gray-200"
+                        />
+                    </div>
+                    <h2 className="mb-2 font-semibold text-lg">Mr Ngoran Aristid</h2>
+                    <p className="">Software Engineer, xyz company.</p>
+                    <p>He is the Chief support staff. she oversees the smooth running of all operations, projects and programs at Rebase Academy. </p>
+                </div>
+
+                <div className="bg-gray-200 p-10 w-[30%]">
+
+                    <div className="w-20 h-24 my-8">
+                        <Image
+                            src={kimi}
+                            alt='dp'
+                            className="w-full h-full object-cover border rounded-t-full border-gray-200 "
+                        />
+                    </div>
+
+                    <h2 className="mb-2 font-semibold text-lg">Miss Kimmie Salah</h2>
+                    <p>web Developer, abc company.</p>
+                    <p>she is the Chief support staff. she oversees the smooth running of all operations, projects and programs at Rebase Academy. </p>
+
+                </div>
+
+                <button
+                    className=" left-7 transform -translate-y-1/2 px-5 py-5 bg-orange-500 font-bold rounded-full"
+                >
+                    <GrNext className="text-white text-2xl" />
+                </button>
+
+            </div>
+        </div>
+    )
+};
+
+export default MeetTeam;

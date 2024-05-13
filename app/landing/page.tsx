@@ -5,6 +5,7 @@ import HeroSection from "../_components/hero";
 import OriginSec from "../_components/origin";
 import Testimonials from "../_components/testimonial";
 import FeaturedStudent from "../_components/features-student";
+import MeetTeam from "../_components/meet-team";
 
 export default function LandingPage() {
     return (
@@ -16,6 +17,7 @@ export default function LandingPage() {
             <FeaturedStudent />
             <Potentialsection />
             <Footer />
+            <MeetTeam />
         </div>
     )
 };

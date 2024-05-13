@@ -19,8 +19,8 @@ const Potentialsection: React.FC = () => {
                 <h2 className="text-4xl font-bold mb-6">Unlock Your Potential with Rebase Code Camp</h2>
                 <h3 className="mb-14">Join our innovative programs and gain the skills to thrive in the digital age.</h3>
 
-                <div className="space-x-8">
-                    <Link href="/dashboard" className="py-3.5 bg-orange-500">
+                <div className="space-x-10">
+                    <Link href="/dashboard" className="py-4 bg-orange-500">
                         <Button className='font-bold' type='button'>Apply Now</Button>
                     </Link>
                     <Link href="/dashboard">

@@ -7,7 +7,7 @@ import { FaFacebookF, FaLinkedin, FaTiktok, FaTwitter } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
     return (
-        <div className='p-10 py-14 lg:mx-20'>
+        <div className='p-10 pb-10 lg:mx-20'>
             <h1 className='text-2xl pb-10 font-bold'>Get in touch with us</h1>
 
             <div className='flex w-full justify-between mb-10'>

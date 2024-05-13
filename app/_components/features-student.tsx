@@ -8,13 +8,13 @@ import Image from "next/image";
 const FeaturedStudent: React.FC = () => {
     return (
         <div className="lg:mx-20 my-32">
-            <h1 className="text-6xl mb-6 text-center font-sans">Featured Students</h1>
-            <h3 className="mb-10 text-xl text-center">Here are our Top Three (3) Students Of The Month!</h3>
+            <h1 className="text-6xl mb-4 text-center font-sans">Featured Students</h1>
+            <h3 className="mb-14 text-xl text-center">Here are our Top Three (3) Students Of The Month!</h3>
             <div className="flex justify-center items-center">
 
                 <div className="p-10 bg-orange-50 w-[20%] text-center">
 
-                    <div className="w-48 h-48 my-8 mx-auto">
+                    <div className="w-60 h-60 my-8 mx-auto">
                         <Image
                             src={ewi}
                             alt='dp'
@@ -27,7 +27,7 @@ const FeaturedStudent: React.FC = () => {
 
                 <div className="bg-orange-50 p-10 w-[20%] text-center mx-20">
 
-                    <div className="w-48 h-48 my-8 mx-auto">
+                    <div className="w-60 h-60 my-8 mx-auto">
                         <Image
                             src={dorine}
                             alt='dp'
@@ -41,7 +41,7 @@ const FeaturedStudent: React.FC = () => {
 
                 <div className="bg-orange-50 p-10 w-[20%] text-center">
 
-                    <div className="w-48 h-48 my-8 mx-auto">
+                    <div className="w-60 h-60 my-8 mx-auto">
                         <Image
                             src={bata}
                             alt='dp'
