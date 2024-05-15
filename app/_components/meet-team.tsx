@@ -28,7 +28,7 @@ const MeetTeam: React.FC = () => {
                     </div>
                     <div className="p-4 text-center">
                         <h2 className="mb-2 font-semibold text-lg">Mr Ngoran Aristid</h2>
-                        <p>Software Engineer, xyz company.</p>
+                        <i>Software Engineer, xyz company.</i>
                         <p className="w-full">He is the Chief support staff. she oversees the smooth running of all operations, projects and programs at Rebase Academy. </p>
                     </div>
                 </div>

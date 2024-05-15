@@ -9,11 +9,11 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="flex items-center justify-between flex-wrap p-6 lg:mx-20">
-            <div className="flex items-center flex-shrink-0 text-black font-extrabold mr-6 lg:mr-72">
+        <nav className="flex items-center justify-between p-6 lg:mx-20 md:mx-10">
+            <div className="flex items-center flex-shrink-0 text-black font-extrabold mr-6 lg:mr-72 md:mr-36">
                 rebase code camp
             </div>
-            <div className="block lg:hidden">
+            <div className="block lg:hidden md:hidden">
                 <button
                     onClick={() => setIsOpen(!isOpen)}
                     className="flex items-center px-3 py-2 rounded text-black-500 hover:text-black-400"
@@ -22,9 +22,9 @@ export default function Navbar() {
                 </button>
             </div>
             <div
-                className={`w-full block lg:flex lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"}`}
+                className={`w-full block lg:flex md:flex lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"}`}
             >
-                <div className="text-base lg:flex mr-32 space-x-10">
+                <div className="text-base sm:flex-none flex mr-32 space-x-10">
                     <Link href="/about-us" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
                         About Us
                     </Link>

@@ -5,7 +5,7 @@ import beri from '../../public/berri.jpeg';
 const AboutUs: React.FC = () => {
     return (
         <div className="justify-around lg:mx-20 items-center">
-            <div className="lg:flex flex-col lg:flex-row justify-center items-center lg:h-screen">
+            <div className="lg:flex flex-col lg:flex-row justify-center items-center lg:h-screen text-center lg:text-start">
                 <div className="w-full lg:w-2/5">
                     <h1 className="text-6xl font-serif mb-10">About Us</h1>
                     <p className="w-[80%] mb-6">Rebase Code Camp is an innovative on-site learning institution that aims to provide individuals with the knowledge and skills needed to thrive in the digital age. We are a leading provider of comprehensive and industry-aligned training programs in the field of web development and technology.</p>
@@ -38,7 +38,7 @@ const AboutUs: React.FC = () => {
                     </div>
                 </div>
                 <div className="w-full lg:w-2/5 space-y-4">
-                    <h2 className="text-2xl font-serif font-medium">Our Story</h2>
+                    <h2 className="text-2xl font-medium">Our Story</h2>
                     <p>After witnessing the changing landscape of the job market, where digital skills were becoming increasingly vital for success. Recognizing the inadequacies of traditional education in preparing students for this new era, we embarked on a mission to bridge the gap and empower individuals to thrive in the digital economy. We pondered on ways to make a meaningful impact, an idea began to take shape - the creation of Rebase Academy (now Rebase Code Camp). With this vision, we set out on a journey that would shape the lives of countless individuals.</p>
                     <p>We designed a curriculum that embraced the latest industry trends, cutting-edge technologies, and real-world applications. Our courses were crafted to be practical, immersive, and hands-on, ensuring that students gained the knowledge and expertise demanded by the ever-evolving digital landscape.</p>
                     <p>But Rebase Code Camp was more than just a school. It became a vibrant community, a place where like-minded individuals came together to learn, collaborate, and support each other's growth.</p>
